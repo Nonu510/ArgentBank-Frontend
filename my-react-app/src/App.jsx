@@ -1,12 +1,13 @@
 
 import './App.css'
+import Banner from './components/banner/banner'
 
 function App() {
   
 
   return (
     <>
-      <p>bonjour</p>
+      <Banner />
     </>
   )
 }
