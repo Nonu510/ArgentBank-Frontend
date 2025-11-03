@@ -19,4 +19,10 @@ body {
 
 .bg-dark {
   background-color: #12002b;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }/*# sourceMappingURL=App.css.map */
