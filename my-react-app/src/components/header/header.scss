@@ -46,3 +46,22 @@
   max-width: 100%;
   width: 200px;
 }
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logout-btn i {
+  margin-right: 5px;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}
