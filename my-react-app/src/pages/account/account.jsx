@@ -7,7 +7,7 @@ import { Navigate } from 'react-router-dom'
 
 function Account() {
   const dispatch = useDispatch()
-  const { token, userInfo, loading, error } = useSelector((state) => state.user || {})
+  const { token, userInfo, loading } = useSelector((state) => state.user || {})
   const [isEditing, setIsEditing] = useState(false)
   const [userName, setUserName] = useState('')
   const [localSaving, setLocalSaving] = useState(false)
